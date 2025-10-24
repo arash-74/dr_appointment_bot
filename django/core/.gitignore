@@ -1,0 +1,42 @@
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Log files
+*.log
+
+# Media and static files (if managed separately or generated)
+/media/
+/static_collected/ # Or the path where Django collects static files
+
+# IDE specific files
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Django specific files
+local_settings.py # For local configuration overrides
+*.pot # Portable Object Template files for translations
+
+# Other common files
+.coverage # Coverage reports
+.tox/ # Tox test environments
+.eggs/ # Setuptools egg files
+build/
+dist/
+*.egg-info/
+.env
